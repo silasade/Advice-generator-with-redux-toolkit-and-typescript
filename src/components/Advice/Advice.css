@@ -1,0 +1,133 @@
+
+body{
+  background-color: hsl(218, 23%, 16%);
+  width: auto;
+}
+.advice{
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 450px;
+  margin: 150px auto;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  word-wrap: break-word;
+  gap: 25px;
+  overflow: visible;
+  padding: 25px;
+  border-radius: 0.5cm;
+}
+.advice h4{
+  color: hsl(150, 100%, 66%);
+  font-size: 12px;
+
+}
+
+.advice h3{
+  color: hsl(193, 38%, 86%);
+  animation-name: animate2,animate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  font-size: 15px;
+}
+.dice{
+  background-color: hsl(150, 100%, 66%);
+  padding: 10px;
+  position: fixed;
+  cursor: pointer;
+ top: 430px;
+ margin-left: -25px;
+  border-radius: 100%;
+  transition: 1s;
+  
+  
+}
+.dice1{
+  background-color: hsl(150, 100%, 66%);
+  padding: 10px;
+  border-radius: 100%;
+  transition: 1s;
+}
+.dice:hover{
+  box-shadow: 3px 4px 29px -7px rgba(82,255,168,0.75);
+-webkit-box-shadow: 3px 4px 29px -7px rgba(82,255,168,0.75);
+-moz-box-shadow: 3px 4px 29px -7px rgba(82,255,168,0.75);
+}
+.divider{
+  width: 100%;
+}
+@keyframes animate {
+    0%{opacity: 0;}
+    50%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+@keyframes animate2 {
+  from{transform: translateY(-30px);}
+  to{transform: translateY(0);}
+}
+@keyframes beep {
+  from{transform: translateY(-0.5px)}
+  to{transform: translateY(1.5px)}
+}
+@media(max-width:1300px){
+  .advice{
+    
+    margin: 140px auto;
+  }
+  .dice{
+    top: 420px;
+  }
+  
+}
+@media(max-width:1000px){
+  .advice{
+    
+    margin: 150px auto;
+  }
+  .dice{
+    top: 430px;
+  }
+  
+}
+@media(max-width:700px){
+  .advice{
+    
+    margin: 160px auto;
+  }
+  .dice{
+    top: 440px;
+  }
+  
+}
+@media(max-width:580px){
+  .advice{
+    height: 250px;
+    width:80%;
+    margin: 185px auto;
+  }
+  .dice{
+    top: 465px;
+   }
+}
+@media(max-width:500px){
+  .advice{
+    width: 80%;
+    height: 200px;
+    margin: 210px auto;
+    padding: 25px;
+}
+.dice{
+  top: 440px;
+ }
+}
+@media(max-width:450px){
+    .advice{
+        width: 80%;
+        height: 200px;
+        margin: 210px auto;
+    }
+    .dice{
+      top: 440px;
+     }
+}
