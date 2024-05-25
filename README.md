@@ -13,7 +13,7 @@ A simple web app that generates random messages at the click of a button.
   Some of its features includes:
   1. Generates random advices from an API at the click of a button
 ## Live URL
-Visit the Live website [here](https://advice-generator-typescript.vercel.app/)
+Visit the Live website [here](https://advice-generator-with-redux-toolkit-and-typescript.vercel.app/)
 
 ### `Installation`
   To run the project locally, follow the following steps:
